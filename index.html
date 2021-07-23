@@ -43,19 +43,39 @@
 		</video>
 	</section>
 	<form action="url o endpoint info de base de datos">
-		<label for="nombre">
-			<span>Agrega tu nombre</span>
-			<input type="text" id="nombre" placeholder="Nombre">
-		</label>
-		<label for="inicio-de-practica">
-			<span>cuando iniciaste a precticar</span>
-			<input type="date" id="inicio-de-practica">
-		</label>
-		<label for="horario">
-			<span>cual es tu horario</span>
-			<input type="time" id="horario">
-		</label>
+		<label for="nombre">Agrega tu nombre</label>
+		<input type="text" id="nombre" placeholder="Nombre">
+		
+		<label for="inicio-de-practica">cuando iniciaste a precticar</label>
+		<input type="datetime-local" id="inicio-de-practica" name="calendario">
+		
+		<label for="horario">cual es tu horario</label>
+	    <input type="time" id="horario" name="horario">
+		<button>Send</button>
 	</form>
+	<form action="">
+		<label for="Hora">Hora</label>
+		<input type="time" id="Hora" name="hora">
+		<label for="Dia">Dias</label>
+		<input type="date" id="Dia" name="dia">
+		<label for="Semana">Semana</label>
+		<input type="week" id="Semana" name="semana">
+		<label for="Mes">Mes</label>
+		<input type="month" id="Mes" name="mes">
+		<input type="submit"/>
+	</form>
+	<form action="">
+		<label for="nombre">nombre</label>
+		<input type="text" id="nombre" name="nombre" placeholder="nombre" autocomplete="name" required>
+		<label for="corrreo">correo</label>
+		<input type="email" name="correo" id="correo" placeholder="correo" autocomplete="email" required>
+		<label for="pais">pais</label>
+		<input type="text" id="pais" name="pais" placeholder="pais" autocomplete="country" required>
+		<label for="cp">cp</label>
+		<input type="email" name="cp" id="cp" placeholder="cp" autocomplete="postal-code" required>
+		<input type="submit"/>
+	</form>
+	
     <h1>Hello world sitio de vyruz</h1>
     <h2>Respositorio de vrz-io</h2>
     <p>practicando conocimientos de github</p>
