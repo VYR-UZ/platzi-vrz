@@ -1,0 +1,21 @@
+ol li{
+    display: inline;
+}
+
+li{
+    list-style: none;
+    padding: 30px;
+}
+
+li img{
+    padding: 15px;
+}
+
+li a{
+    padding: 15px;
+}
+
+img{
+    width: 280px;
+    height: auto;
+}
