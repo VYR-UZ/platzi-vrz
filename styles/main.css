@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+    background-color: #13a4a4;
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.main-nav__item a:hover{ /*psudoclases*/
+    background-color: red;
+}
+
+.main-nav__item a:active{
+    background-color:blueviolet;
+}
+
+.main-nav__item a::after{ /*psudoelementos*/
+    padding-left: 35px;
+    content: " | ";
+}
+
+main{
+    width: 100%;
+    height: 500px;
+    border: 10px solid green;
+    padding: 20px 35px;
+}
