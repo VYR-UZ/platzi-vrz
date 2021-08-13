@@ -11,3 +11,10 @@ h2 + p{
 .hermano-general h2 ~ p {
     color: blue;
 }
+
+div > p{ 
+    color:chartreuse;
+}
+
+/* ">" Hijo directo */
+
