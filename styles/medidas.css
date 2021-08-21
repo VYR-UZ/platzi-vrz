@@ -25,10 +25,23 @@ body{
 */
 *{
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
-
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: crimson;
+}
+section{
+    width: 80%;
+    min-width: 400px; /*se evitaran problemas de scroll, los espacios laterales mo se mostraran al alcanzar el ancho.*/
+    max-width: 500px; /*se limita el crecimiento del ancho*/
+    min-height: 500px; /*altura minima que tendra, si se llega a tener mas cintenido se ajustara*/
+    background-color: dodgerblue;
+    margin: 0 auto;
+}
 p{
-    font-size: .8rem;
+    font-size: 1rem;
+    color: cornsilk;
 }
