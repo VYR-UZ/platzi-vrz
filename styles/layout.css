@@ -3,3 +3,64 @@
     padding: 0;
     margin: 0;
 }
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    display: inline-block;
+    width: 100vw;
+    padding: 30px;
+    background-color: springgreen;
+}
+
+figure{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 60%;
+}
+
+nav{
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color:cornflowerblue;
+    text-transform: uppercase;
+    padding: 0 15px;
+}
+
+aside{
+    display: inline-block;
+    width: 25vw;
+    height: 75vh;
+    background-color: crimson;
+}
+
+.box{
+    background-color: gold;
+    margin: 24px auto;
+    width: 60%;
+    height: 20%;
+}
+
+section{
+    display: inline-block;
+    position: absolute;
+    width: 75vw;
+    height: 75vh;
+    background-color: deepskyblue;
+}
+
+footer{
+    width: 100vw;
+    height: 14.5vh;
+    background-color: darkgoldenrod;
+}
