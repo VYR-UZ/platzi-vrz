@@ -1,0 +1,39 @@
+:root{
+    --primary-color:darkblue;
+    --secundary-color:indianred; 
+    --font: .9rem;
+    --font-h1: 2.2rem;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 100%;
+    font-family: 'Indie Flower', cursive;
+}
+
+header{
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--primary-color);
+}
+
+main{
+    width: 100vw;
+    height: 70vh;
+    font-size: var(--font);
+}
+
+h1{
+    font-size: var(--font-h1);
+}
+
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--secundary-color);
+}
