@@ -10,7 +10,7 @@ html{
 
 .container{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;/*se reposicionan cuando el tamaño lo permite cunando cresca el viewport*/
 }
 
 .c1,
@@ -42,8 +42,10 @@ html{
     background-color:mistyrose;
 }
 
-/*
-@media (min-width:600px) {
+/* Mientras el viewport sea 
+   de 600px o mas se aplica */
+/* 
+@media (min-width:600px) { 
     .c2,
     .c3,
     .c4{
